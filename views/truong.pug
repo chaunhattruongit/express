@@ -1,0 +1,12 @@
+extends layout
+
+block content
+	.container
+		.row
+			- for(x=0;x<truong.data.length;x++)
+				.col-4.item
+					h2=truong.data[x].name
+					h6 $ #{truong.data[x].price}
+					figure
+						img.img-fluid(src=truong.data[x].img, alt="")
+					p=truong.data[x].desc

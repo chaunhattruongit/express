@@ -1,8 +1,18 @@
 extends layout
 
 block content
-	h1= title
+	h1= dataTruong.data.title
 	figure
-		img(src="./img/logo.png", alt="")
-	p Welcome to #{title}
-	
+		img(src=dataTruong.data.img, alt="")
+	p=dataTruong.data.desc
+	ul
+		- for (x=0;x<dataTruong.data.list.length;x++)
+			li
+				if(x==1)
+					a(href="#") #{dataTruong.data.list[x]} themdata
+				else
+					a(href="#") #{dataTruong.data.list[x]}
+	- for(x=0;x<dataTruong.data.news.length;x++)
+		.item
+			h2=dataTruong.data.news[x].name
+			p=dataTruong.data.news[x].desc

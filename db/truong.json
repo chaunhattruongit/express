@@ -1,0 +1,22 @@
+{
+	"data":[
+		{
+			"name": "truong1",
+			"price": "335465465",
+			"img": "http://img.saobiz.net/d/2015/07/nhung-hinh-anh-dep-ve-mua-xuan-1.jpg",
+			"desc":"kjdshfkdhffdjjhdgfjhd"
+		},
+		{
+			"name": "truong2",
+			"price": "335465465",
+			"img": "http://img.saobiz.net/d/2015/07/nhung-hinh-anh-dep-ve-mua-xuan-1.jpg",
+			"desc":"kjdshfkdhffdjjhdgfjhd"
+		},
+		{
+			"name": "truong3",
+			"price": "335465465",
+			"img": "http://img.saobiz.net/d/2015/07/nhung-hinh-anh-dep-ve-mua-xuan-1.jpg",
+			"desc":"kjdshfkdhffdjjhdgfjhd"
+		}
+	]
+}
